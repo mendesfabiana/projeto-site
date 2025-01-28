@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+:root{
+    --cor0:#4d321f;
+    --cor1:#a77d54;
+    --cor2:#84735e;
+    --cor3:#c9b09a;
+    --cor4:#f5f5f5;    
+}
+
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    margin-top: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    background-color:#f5f5f5;    
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: #4d321f;
+}
+
+.container-fluid{
+    position: fixed;
+    top: 0;
+    width: 100%;   
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.1);   
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.nav a{
+    color:var(--cor0);
+    font-weight:370;
+    font-size: 15px;
+}
+
+.nav a:hover{
+    border: solid #6d482e4b 1px;   
+    border-radius: 30px;
+    color: #6d482e;
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.253); 
+}
+
+.imagem-inicial img{
+    object-fit: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.mensagem {
+    background: rgba(255, 255, 255, 0.14);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.3px);
+    -webkit-backdrop-filter: blur(6.3px);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    margin: 3% 10% 3% 10%;
+    border-radius: 18px;
+    padding: 2%;
+    
+}
+.mensagem p{
+    text-align: justify;
+    text-indent: 3em;   
+}
+.grid1{
+    width:100%;    
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-image: url(../img/fundofloral4.jpg);       
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.col p{
+    background: rgba(255, 255, 255, 0.67);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    margin: 4% 7% 3% 7%;
+    border-radius: 18px;
+    padding: 7%;
+    text-align: justify;
+    text-indent: 3em;   
+}
+
+.container-aviso{
+    width: 100%;
+   padding-top: 30px;
+   padding-bottom: 50px;
+   background-image: url(../img/img.aviso.miniml.jpg);
+   background-size: cover; 
+}
+
+.col img{
+    background: rgba(255, 255, 255, 0.67);
+    border-radius: 16px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    margin: 4% 7% 3% 7%;
+    border-radius: 18px;
+    padding: 3%;
+    width: 50%;
+    margin-top: 4%;    
+}
+
+.card-img-overlay h2{
+    color: #4d321f;
+    padding-top: 1%;
+}
+
+.card-img-overlay img{
+    background: #c9b09a7a;
+    border-radius: 16px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.26);
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(6.2px);
+    padding: 2%;
+    width: 70%;
+    margin: 3% 10% 4% 10%;         
+}
+
+.card{
+    background-image: url(../img/3bb16f3c84b8267d769593a2cbf14df1.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+footer{
+    background-color: #4d321f;
+    color: antiquewhite;
+}
